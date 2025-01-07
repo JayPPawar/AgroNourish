@@ -22,15 +22,20 @@ The project uses the Plant Village Dataset from Kaggle, which contains labeled i
 
 # Installation
 1.Clone the repository:
+```bash
   git clone https://github.com/your-username/Plant-Disease-Detection.git
   cd Plant-Disease-Detection
-
+```
 2.Install dependencies:
+```bash
   pip install -r requirements.txt
-
+```
 3.Run the Flask application:
+```bash
   python app.py
-
-4.Open your web browser and go to http://localhost:5000.
-
+```
+4.Open your web browser and go to:
+```bash
+  http://localhost:5000.
+```
 5.Upload an image of a plant part (leaf, stem, or root) to get a real-time prediction of the disease.
